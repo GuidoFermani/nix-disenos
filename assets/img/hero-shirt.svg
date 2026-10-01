@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="34" fill="#F4F7F7"/>
+  <rect x="110" y="120" width="680" height="480" rx="28" fill="#FFFFFF" stroke="#D9EEE9" stroke-width="4"/>
+  <rect x="180" y="190" width="290" height="360" rx="20" fill="#111111"/>
+  <path d="M210 440C255 308 292 255 355 255C420 255 475 308 520 440" stroke="#6EE7D4" stroke-width="22" stroke-linecap="round"/>
+  <path d="M240 255L290 185C312 157 347 142 390 142C430 142 467 156 488 185L540 255" stroke="#0D9488" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="270" cy="510" r="32" fill="#0D9488"/>
+  <circle cx="470" cy="510" r="32" fill="#6EE7D4"/>
+  <rect x="500" y="220" width="220" height="230" rx="14" fill="#EAF9F7"/>
+  <path d="M550 350L590 280L640 350L690 300" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="610" y="430" text-anchor="middle" fill="#111111" font-size="41" font-family="Montserrat, Arial, sans-serif" font-weight="800">NIX</text>
+  <text x="610" y="480" text-anchor="middle" fill="#0D9488" font-size="34" font-family="Montserrat, Arial, sans-serif" font-weight="700">DISEÑOS</text>
+</svg>

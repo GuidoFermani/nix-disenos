@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960" height="760" viewBox="0 0 960 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="760" rx="40" fill="#F6FBFB"/>
+  <circle cx="175" cy="160" r="110" fill="#D8FFF7"/>
+  <circle cx="773" cy="185" r="120" fill="#E5F7F5"/>
+  <rect x="190" y="130" width="580" height="490" rx="28" fill="#FFFFFF" stroke="#D7F2EE" stroke-width="4"/>
+  <rect x="300" y="180" width="360" height="360" rx="24" fill="#111111"/>
+  <path d="M345 430C392 308 432 256 480 256C528 256 568 308 615 430" stroke="#6EE7D4" stroke-width="24" stroke-linecap="round"/>
+  <path d="M373 256L427 175C450 144 472 132 480 132C488 132 510 144 533 175L587 256" stroke="#0D9488" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="400" cy="500" r="36" fill="#0D9488"/>
+  <circle cx="560" cy="500" r="36" fill="#6EE7D4"/>
+  <text x="480" y="600" text-anchor="middle" fill="#111111" font-size="46" font-family="Montserrat, Arial, sans-serif" font-weight="800">ESTAMPADOS</text>
+</svg>

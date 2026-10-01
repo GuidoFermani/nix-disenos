@@ -1,0 +1,34 @@
+.about-layout,
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.contact-form-card {
+  padding: 2rem 1.6rem;
+}
+
+.contact-form .form-control {
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 14px;
+  min-height: 52px;
+  padding: 0.9rem 1rem;
+  background: #fbfdfd;
+  transition: all 0.25s ease;
+
+  &:focus {
+    border-color: #0d9488;
+    background: #fff;
+  }
+}
+
+.contact-form textarea.form-control {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.product-page-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}

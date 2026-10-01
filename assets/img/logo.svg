@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="36" fill="#EAF9F7"/>
+  <rect x="120" y="80" width="360" height="440" rx="28" fill="#FFFFFF" stroke="#D4F2EE" stroke-width="4"/>
+  <rect x="160" y="120" width="280" height="320" rx="20" fill="#111111"/>
+  <path d="M190 330C220 270 260 220 300 220C340 220 380 270 410 330" stroke="#6EE7D4" stroke-width="18" stroke-linecap="round"/>
+  <path d="M220 220L250 170C267 148 294 138 320 138C345 138 372 148 389 170L420 220" stroke="#0D9488" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="225" cy="365" r="26" fill="#0D9488"/>
+  <circle cx="375" cy="365" r="26" fill="#6EE7D4"/>
+  <text x="300" y="500" text-anchor="middle" fill="#111111" font-size="38" font-family="Montserrat, Arial, sans-serif" font-weight="700">NIX DISEÑOS</text>
+</svg>
