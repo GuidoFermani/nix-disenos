@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="760" viewBox="0 0 800 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="760" rx="30" fill="#F7F9F9"/>
+  <rect x="200" y="150" width="400" height="430" rx="22" fill="#FFFFFF" stroke="#D7EFEC" stroke-width="4"/>
+  <path d="M250 340C317 222 336 182 400 182C465 182 484 222 551 340L582 500H218L250 340Z" fill="#111111"/>
+  <path d="M280 334L355 258H445L520 334" stroke="#0D9488" stroke-width="16" stroke-linecap="round"/>
+  <path d="M300 390H500" stroke="#6EE7D4" stroke-width="12" stroke-linecap="round"/>
+  <text x="400" y="620" text-anchor="middle" fill="#111111" font-size="34" font-family="Montserrat, Arial, sans-serif" font-weight="800">Tote bag</text>
+</svg>

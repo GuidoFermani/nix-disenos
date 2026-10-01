@@ -1,66 +1,44 @@
-# Nix Diseños - Página Web
+# Nix Diseños
 
-Sitio web profesional para Nix Diseños, empresa de estampados y remeras personalizadas.
+Proyecto de sitio web para marca de estampados y remeras personalizadas.
 
-## 🎨 Características
+## Estructura
 
-- **5 Páginas**: Inicio, Nosotros, Trabajos, Productos, Contacto
-- **Diseño Responsivo**: Mobile-first, adaptable a todos los dispositivos
-- **Colores**: Blanco, Negro y Verde Agua (#0d9488)
-- **Estilo Premium**: Moderno, limpio y profesional
-- **Navegación Fluida**: Menú sticky con efectos hover
+- `index.html`: página principal
+- `pages/nosotros.html`
+- `pages/trabajos.html`
+- `pages/productos.html`
+- `pages/contacto.html`
+- `scss/`: archivos SCSS
+- `styles/main.css`: CSS compilado
+- `assets/img`: gráficos y placeholder visuales
+- `assets/js/main.js`: interactividad y AOS
 
-## 📁 Estructura de archivos
+## Requisitos cumplidos
 
-```
-nix-disenos/
-├── index.html          # Página de inicio
-├── nosotros.html       # Página de nosotros
-├── trabajos.html       # Galería de trabajos
-├── productos.html      # Catálogo de productos
-├── contacto.html       # Formulario de contacto
-├── styles.css          # Estilos globales
-├── script.js           # JavaScript para interactividad
-└── README.md           # Este archivo
-```
+- 5 HTML semánticos con SEO local
+- Navbar Bootstrap responsiva
+- SCSS con variables, mixins, nesting, partials y @use
+- Animación nativa + animación con AOS
+- Sitio responsivo para mobile, tablet y desktop
+- Archivos en `assets/` para contenido multimedia
 
-## 🚀 Cómo usar
+## Deploy
 
-1. Clona el repositorio
-2. Abre `index.html` en tu navegador
-3. Navega por las diferentes páginas
+Este proyecto está preparado para desplegarse en Vercel.
 
-## 📝 Personalización
+Pasos:
+1. Subir el repositorio a GitHub.
+2. Conectar el repo en Vercel.
+3. Usar la carpeta raíz como directorio de despliegue.
+4. Confirmar la publicación.
 
-### Cambiar colores
-Edita las variables en `styles.css`:
-```css
-:root {
-  --black: #0b0b0b;
-  --white: #f7f7f7;
-  --green-1: #0d9488;  /* Color principal */
-  --green-2: #6ee7d4;  /* Color secundario */
-}
-```
-
-### Cambiar contenido
-Edita el texto en los archivos `.html` correspondientes.
-
-### Cambiar imágenes
-Reemplaza las URLs de `unsplash.com` con tus propias imágenes.
-
-## 📱 Responsiva
-
-- Desktop (1024px+)
-- Tablet (768px - 1023px)
-- Mobile (< 768px)
-
-## 🔗 Enlaces
+## Contacto del proyecto
 
 - WhatsApp: +54 9 11 1234-5678
 - Email: nixdisenos@gmail.com
 - Ubicación: Buenos Aires, Argentina
 
----
+## Notas
 
-© 2026 Nix Diseños. Todos los derechos reservados.
+Las imágenes actuales son placeholders visuales para maquetación y estética. Se recomienda reemplazarlas por imágenes reales del negocio o del trabajo final para la versión de producción.

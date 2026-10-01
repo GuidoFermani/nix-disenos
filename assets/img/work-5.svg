@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="32" fill="#F4FBFA"/>
+  <rect x="180" y="120" width="540" height="480" rx="28" fill="#FFFFFF" stroke="#DDF2EF" stroke-width="4"/>
+  <rect x="250" y="180" width="260" height="330" rx="22" fill="#111111"/>
+  <path d="M282 390C320 310 357 270 400 270C443 270 480 310 518 390" stroke="#0D9488" stroke-width="18" stroke-linecap="round"/>
+  <path d="M308 270L348 200C363 178 382 168 400 168C418 168 437 178 452 200L492 270" stroke="#6EE7D4" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="335" cy="495" r="22" fill="#0D9488"/>
+  <circle cx="465" cy="495" r="22" fill="#6EE7D4"/>
+  <rect x="560" y="220" width="120" height="110" rx="18" fill="#EAF9F7"/>
+  <path d="M583 310L610 270L640 310L668 286" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="620" y="430" text-anchor="middle" fill="#111111" font-size="30" font-family="Montserrat, Arial, sans-serif" font-weight="800">LIMITED</text>
+</svg>

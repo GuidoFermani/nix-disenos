@@ -1,0 +1,19 @@
+@mixin flex-center($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+@mixin border-radius($value) {
+  border-radius: $value;
+}
+
+@mixin transition($property: all, $duration: 0.25s, $ease: ease) {
+  transition: $property $duration $ease;
+}
+
+@mixin hover-lift {
+  transform: translateY(-4px);
+  box-shadow: 0 22px 36px rgba(17, 17, 17, 0.12);
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="32" fill="#F5FAF9"/>
+  <rect x="170" y="120" width="560" height="470" rx="30" fill="#FFFFFF" stroke="#D9EFEA" stroke-width="4"/>
+  <rect x="250" y="180" width="240" height="330" rx="22" fill="#111111"/>
+  <path d="M280 390C317 310 347 268 400 268C452 268 483 310 520 390" stroke="#0D9488" stroke-width="18" stroke-linecap="round"/>
+  <path d="M303 270L343 202C358 176 381 164 400 164C419 164 442 176 457 202L497 270" stroke="#6EE7D4" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="333" cy="488" r="24" fill="#0D9488"/>
+  <circle cx="468" cy="488" r="24" fill="#6EE7D4"/>
+  <rect x="540" y="215" width="120" height="120" rx="18" fill="#EAF9F7"/>
+  <path d="M563 300L590 260L615 300L640 278" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="430" text-anchor="middle" fill="#111111" font-size="32" font-family="Montserrat, Arial, sans-serif" font-weight="800">URBANO</text>
+</svg>

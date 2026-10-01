@@ -3,192 +3,189 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nix Diseños | Estampados y remeras personalizadas</title>
     <meta
       name="description"
-      content="Nix Diseños crea remeras estampadas personalizadas, diseños únicos y productos con estilo premium."
+      content="Nix Diseños fabrica remeras estampadas personalizadas, estampados para eventos, marcas y proyectos únicos en Buenos Aires."
     />
-    <link rel="stylesheet" href="styles.css" />
+    <meta
+      name="keywords"
+      content="Nix Diseños, remeras personalizadas, estampados, estampame, diseño gráfico, Buenos Aires, remeras estampadas"
+    />
+    <title>Nix Diseños | Estampados y remeras personalizadas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <header>
-      <div class="container navbar">
-        <a href="index.html" class="logo">NIX <span>DISEÑOS</span></a>
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center gap-2" href="index.html" aria-label="Nix Diseños home">
+            <img src="assets/img/logo.svg" alt="Logo Nix Diseños" class="brand-logo" />
+            <span class="brand-text">NIX <strong>DISEÑOS</strong></span>
+          </a>
 
-        <nav class="nav-menu">
-          <a href="index.html" class="active">Inicio</a>
-          <a href="nosotros.html">Nosotros</a>
-          <a href="trabajos.html">Trabajos</a>
-          <a href="productos.html">Productos</a>
-          <a href="contacto.html">Contacto</a>
-        </nav>
-
-        <div class="nav-actions">
-          <a href="contacto.html" class="btn btn-primary">Cotizar</a>
-          <button class="menu-toggle" aria-label="Abrir menú">
-            <span></span>
-            <span></span>
-            <span></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar"
+            aria-expanded="false"
+            aria-label="Abrir menú"
+          >
+            <span class="navbar-toggler-icon"></span>
           </button>
+
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/nosotros.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/trabajos.html">Trabajos</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/productos.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+            </ul>
+            <a class="btn btn-primary" href="pages/contacto.html">Cotizar</a>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
+      <section class="hero-section">
+        <div class="container hero-wrapper">
+          <div class="hero-copy" data-aos="fade-right" data-aos-duration="1000">
+            <span class="eyebrow">Estampados de alto impacto</span>
             <h1>Diseños que dejan marca.</h1>
             <p>
-              En Nix Diseños creamos remeras, buzos y prendas estampadas con
-              estilo, calidad y personalidad para marcas, eventos, grupos y
-              personas.
+              En Nix Diseños creamos remeras, buzos, gorras y prendas personalizadas con identidad,
+              calidad premium y presentación impecable para marcas, eventos y personas.
             </p>
-
-            <div class="hero-buttons">
-              <a href="productos.html" class="btn btn-primary">Ver productos</a>
-              <a href="contacto.html" class="btn btn-secondary">Solicitar presupuesto</a>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="pages/productos.html">Ver productos</a>
+              <a class="btn btn-secondary" href="pages/contacto.html">Solicitar presupuesto</a>
             </div>
-
             <div class="hero-stats">
-              <div class="stat">
+              <div>
                 <strong>+500</strong>
                 <span>Trabajos</span>
               </div>
-              <div class="stat">
+              <div>
                 <strong>48h</strong>
                 <span>Producción</span>
               </div>
-              <div class="stat">
+              <div>
                 <strong>100%</strong>
                 <span>Personalizado</span>
               </div>
             </div>
           </div>
 
-          <div class="hero-visual">
-            <div class="product-showcase">
-              <img
-                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
-                alt="Remeras estampadas"
-              />
+          <div class="hero-visual" data-aos="fade-left" data-aos-duration="1100">
+            <div class="visual-card">
+              <img src="assets/img/hero-shirt.svg" alt="Diseño de remera estampada Nix Diseños" />
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section section-light">
         <div class="container">
-          <h2 class="section-title">¿Por qué elegir Nix Diseños?</h2>
-          <p class="section-subtitle">
-            Diseños pensados para destacar, con atención al detalle, materiales de
-            calidad y un servicio cercano.
-          </p>
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">¿Por qué elegirnos?</span>
+            <h2>Calidad, creatividad y atención cercana.</h2>
+          </div>
 
           <div class="feature-grid">
-            <article class="feature-card">
-              <div class="icon">01</div>
+            <article class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="feature-icon">01</div>
               <h3>Diseño único</h3>
-              <p>
-                Creamos estampados originales y adaptados a tu identidad, marca o
-                evento.
-              </p>
+              <p>Transformamos tu idea en un estampado que se siente original, moderno y efectivo.</p>
             </article>
-
-            <article class="feature-card">
-              <div class="icon">02</div>
-              <h3>Alta calidad</h3>
-              <p>
-                Usamos materiales durables y técnicas que mantienen la impresión con
-                excelente resultado.
-              </p>
+            <article class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="feature-icon">02</div>
+              <h3>Material premium</h3>
+              <p>Trabajamos con prendas cómodas y resistentes para que cada pieza luzca mejor.</p>
             </article>
-
-            <article class="feature-card">
-              <div class="icon">03</div>
+            <article class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="feature-icon">03</div>
               <h3>Atención personalizada</h3>
-              <p>
-                Te acompañamos desde la idea hasta la entrega para que tu pedido quede
-                perfecto.
-              </p>
+              <p>Te acompañamos desde la idea hasta el envío para que tengas una experiencia clara.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <div class="landing-strip">
-        <div class="container strip-inner">
-          <h3>Estampados y remeras para personalizar tu estilo.</h3>
-          <a href="contacto.html" class="btn btn-primary">Hablemos</a>
+      <section class="cta-band">
+        <div class="container cta-content">
+          <h2>Estampados y remeras para personalizar tu estilo.</h2>
+          <a class="btn btn-primary" href="pages/contacto.html">Hablemos</a>
         </div>
-      </div>
+      </section>
 
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Nuestros servicios</h2>
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Servicios</span>
+            <h2>Todo lo que necesitás para tu proyecto.</h2>
+          </div>
 
-          <div class="services-grid">
-            <article class="service-card">
+          <div class="service-grid">
+            <article class="service-card" data-aos="fade-up" data-aos-delay="100">
               <h3>Estampado personalizado</h3>
-              <p>
-                Remeras, buzos y prendas con diseño a medida para eventos, equipos y
-                marcas.
-              </p>
+              <p>Remeras, buzos, gorras y prendas con diseño a medida para eventos, equipos y marcas.</p>
             </article>
-
-            <article class="service-card">
+            <article class="service-card" data-aos="fade-up" data-aos-delay="200">
               <h3>Producción para empresas</h3>
-              <p>
-                Soluciones para uniformes, staff, promociones y regalos corporativos.
-              </p>
+              <p>Uniformes, regalos corporativos, promociones y piezas para staff y presentaciones.</p>
             </article>
-
-            <article class="service-card">
+            <article class="service-card" data-aos="fade-up" data-aos-delay="300">
               <h3>Diseño desde cero</h3>
-              <p>
-                Te ayudamos a visualizar tu idea, elegir la mejor técnica y definir el
-                resultado final.
-              </p>
+              <p>Te ayudamos a definir el estilo, la técnica y la prenda ideal para tu identidad.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section section-light">
         <div class="container">
-          <h2 class="section-title">Trabajos destacados</h2>
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Trabajos</span>
+            <h2>Proyectos destacados.</h2>
+          </div>
 
           <div class="work-grid">
-            <article class="work-card">
-              <img
-                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
-                alt="Trabajo 1"
-              />
+            <article class="work-card" data-aos="zoom-in" data-aos-delay="100">
+              <img src="assets/img/work-1.svg" alt="Evento corporativo Nix Diseños" />
               <div class="work-info">
                 <h3>Evento corporativo</h3>
-                <p>Remeras premium para staff y promociones.</p>
+                <p>Prendas premium para staff, promociones y presentaciones.</p>
               </div>
             </article>
-
-            <article class="work-card">
-              <img
-                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
-                alt="Trabajo 2"
-              />
+            <article class="work-card" data-aos="zoom-in" data-aos-delay="200">
+              <img src="assets/img/work-2.svg" alt="Diseño urbano Nix Diseños" />
               <div class="work-info">
                 <h3>Diseño urbano</h3>
-                <p>Estampados modernos y de alto impacto visual.</p>
+                <p>Estampados modernos y con identidad visual potente.</p>
               </div>
             </article>
-
-            <article class="work-card">
-              <img
-                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80"
-                alt="Trabajo 3"
-              />
+            <article class="work-card" data-aos="zoom-in" data-aos-delay="300">
+              <img src="assets/img/work-3.svg" alt="Proyecto personal Nix Diseños" />
               <div class="work-info">
                 <h3>Proyecto personal</h3>
-                <p>Prendas para artistas, grupos y emprendimientos.</p>
+                <p>Prendas únicas para artistas, emprendimientos y grupos.</p>
               </div>
             </article>
           </div>
@@ -197,53 +194,53 @@
 
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Productos populares</h2>
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Productos</span>
+            <h2>Lo más solicitado.</h2>
+          </div>
 
           <div class="product-grid">
-            <article class="product-card">
-              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80" alt="Remera">
-              <div class="product-info">
+            <article class="product-card" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/product-1.svg" alt="Remera básica Nix Diseños" />
+              <div class="product-body">
                 <h3>Remera básica</h3>
-                <p>Ideal para estampados personalizados.</p>
-                <div class="price">
+                <p>Ideal para estampados personalizados y uso diario.</p>
+                <div class="product-meta">
                   <span>$2.500</span>
-                  <a href="contacto.html" class="btn btn-secondary">Consultar</a>
+                  <a href="pages/contacto.html">Consultar</a>
                 </div>
               </div>
             </article>
-
-            <article class="product-card">
-              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80" alt="Buzo">
-              <div class="product-info">
+            <article class="product-card" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/product-2.svg" alt="Buzo Nix Diseños" />
+              <div class="product-body">
                 <h3>Buzo</h3>
-                <p>Estilo premium y gran comodidad.</p>
-                <div class="price">
+                <p>Calidez, estilo y gran presentacion para cualquier proyecto.</p>
+                <div class="product-meta">
                   <span>$5.800</span>
-                  <a href="contacto.html" class="btn btn-secondary">Consultar</a>
+                  <a href="pages/contacto.html">Consultar</a>
                 </div>
               </div>
             </article>
-
-            <article class="product-card">
-              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80" alt="Gorra">
-              <div class="product-info">
+            <article class="product-card" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/product-3.svg" alt="Gorra Nix Diseños" />
+              <div class="product-body">
                 <h3>Gorra</h3>
-                <p>Perfecta para marcas y eventos.</p>
-                <div class="price">
+                <p>Perfecta para marcas, promociones y regalos corporativos.</p>
+                <div class="product-meta">
                   <span>$1.800</span>
-                  <a href="contacto.html" class="btn btn-secondary">Consultar</a>
+                  <a href="pages/contacto.html">Consultar</a>
                 </div>
               </div>
             </article>
-
-            <article class="product-card">
-              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=700&q=80" alt="Tote">
-              <div class="product-info">
+            <article class="product-card" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/product-4.svg" alt="Tote bag Nix Diseños" />
+              <div class="product-body">
                 <h3>Tote bag</h3>
-                <p>Diseños funcionales y vibrantes.</p>
-                <div class="price">
+                <p>Funcional y visualmente atractivo para eventos y merch.</p>
+                <div class="product-meta">
                   <span>$2.100</span>
-                  <a href="contacto.html" class="btn btn-secondary">Consultar</a>
+                  <a href="pages/contacto.html">Consultar</a>
                 </div>
               </div>
             </article>
@@ -251,113 +248,97 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="section section-light">
         <div class="container">
-          <h2 class="section-title">Opiniones de clientes</h2>
+          <div class="section-heading" data-aos="fade-up">
+            <span class="eyebrow">Opiniones</span>
+            <h2>Lo que dicen nuestros clientes.</h2>
+          </div>
 
-          <div class="testimonials-grid">
-            <article class="testimonial">
-              <div class="rating">★★★★★</div>
-              <p>
-                "Excelente calidad, atención impecable y el diseño quedó exactamente
-                como lo imaginábamos."
-              </p>
+          <div class="testimonial-grid">
+            <article class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="stars">★★★★★</div>
+              <p>“Excelente calidad, atención impecable y el trabajo quedó exactamente como lo imaginábamos.”</p>
               <div class="client">
-                <div class="avatar">A</div>
+                <span class="client-avatar">A</span>
                 <div>
-                  <strong>Ana</strong><br />
-                  <span>Marca</span>
+                  <strong>Ana</strong>
+                  <small>Marca</small>
                 </div>
               </div>
             </article>
-
-            <article class="testimonial">
-              <div class="rating">★★★★★</div>
-              <p>
-                "Hicieron una remera para nuestro evento con un acabado muy premium."
-              </p>
+            <article class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="stars">★★★★★</div>
+              <p>“Nos ayudaron a llevar nuestro evento con una identidad visual muy fuerte y profesional.”</p>
               <div class="client">
-                <div class="avatar">L</div>
+                <span class="client-avatar">L</span>
                 <div>
-                  <strong>Luca</strong><br />
-                  <span>Evento</span>
+                  <strong>Luca</strong>
+                  <small>Evento</small>
                 </div>
               </div>
             </article>
-
-            <article class="testimonial">
-              <div class="rating">★★★★★</div>
-              <p>
-                "Nos ayudaron a materializar nuestra idea y salir con un producto muy
-                profesional."
-              </p>
+            <article class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="stars">★★★★★</div>
+              <p>“Muy buen trabajo, atención cercana y resultados que destacan en cada detalle.”</p>
               <div class="client">
-                <div class="avatar">M</div>
+                <span class="client-avatar">M</span>
                 <div>
-                  <strong>Marcos</strong><br />
-                  <span>Emprendedor</span>
+                  <strong>Marcos</strong>
+                  <small>Emprendedor</small>
                 </div>
               </div>
             </article>
           </div>
-        </div>
-      </section>
-
-      <section class="cta">
-        <div class="container cta-inner">
-          <div>
-            <h2>Listo para llevar tu diseño al siguiente nivel.</h2>
-            <p>Hacemos estampados para marcas, eventos, grupos y proyectos personales.</p>
-          </div>
-          <a href="contacto.html" class="btn btn-secondary">Solicitar cotización</a>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div class="container">
-        <div class="footer-grid">
-          <div>
-            <h4>Nix Diseños</h4>
-            <p>
-              Estampados personalizados con calidad, estilo y atención cercana.
-            </p>
-          </div>
-
-          <div>
-            <h4>Explorar</h4>
-            <ul>
-              <li><a href="index.html">Inicio</a></li>
-              <li><a href="nosotros.html">Nosotros</a></li>
-              <li><a href="productos.html">Productos</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4>Servicios</h4>
-            <ul>
-              <li>Estampado</li>
-              <li>Diseño</li>
-              <li>Producción</li>
-            </ul>
-          </div>
-
-          <div>
-            <h4>Contacto</h4>
-            <ul>
-              <li>WhatsApp: +54 9 11 1234-5678</li>
-              <li>nixdisenos@gmail.com</li>
-              <li>Buenos Aires, Argentina</li>
-            </ul>
-          </div>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="footer-brand" href="index.html">
+            <img src="assets/img/logo.svg" alt="Logo Nix Diseños" class="brand-logo" />
+            <span>NIX <strong>DISEÑOS</strong></span>
+          </a>
+          <p>Estampados personalizados con estilo, calidad y atención cercana.</p>
         </div>
 
-        <div class="copyright">
-          © <span id="year"></span> Nix Diseños. Todos los derechos reservados.
+        <div>
+          <h3>Navegación</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/nosotros.html">Nosotros</a></li>
+            <li><a href="pages/trabajos.html">Trabajos</a></li>
+          </ul>
         </div>
+
+        <div>
+          <h3>Servicios</h3>
+          <ul>
+            <li><a href="pages/productos.html">Remeras</a></li>
+            <li><a href="pages/productos.html">Buzos</a></li>
+            <li><a href="pages/contacto.html">Presupuestos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contacto</h3>
+          <ul>
+            <li><a href="tel:+5491112345678">+54 9 11 1234-5678</a></li>
+            <li><a href="mailto:nixdisenos@gmail.com">nixdisenos@gmail.com</a></li>
+            <li>Buenos Aires, Argentina</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Nix Diseños. Todos los derechos reservados.</p>
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

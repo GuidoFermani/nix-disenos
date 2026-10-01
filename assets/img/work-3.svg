@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="32" fill="#F5FBFA"/>
+  <rect x="150" y="120" width="600" height="470" rx="32" fill="#FFFFFF" stroke="#D9F0EE" stroke-width="4"/>
+  <rect x="210" y="180" width="260" height="350" rx="24" fill="#111111"/>
+  <path d="M243 390C280 298 316 256 400 256C484 256 520 298 557 390" stroke="#0D9488" stroke-width="18" stroke-linecap="round"/>
+  <path d="M270 256L318 188C334 166 362 156 400 156C438 156 466 166 482 188L530 256" stroke="#6EE7D4" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="315" cy="500" r="26" fill="#0D9488"/>
+  <circle cx="485" cy="500" r="26" fill="#6EE7D4"/>
+  <rect x="514" y="220" width="180" height="170" rx="18" fill="#EAF9F7"/>
+  <path d="M545 343L580 292L610 333L650 274" stroke="#111111" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="604" y="470" text-anchor="middle" fill="#111111" font-size="28" font-family="Montserrat, Arial, sans-serif" font-weight="800">BRAND</text>
+</svg>

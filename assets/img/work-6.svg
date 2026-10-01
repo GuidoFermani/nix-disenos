@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="720" viewBox="0 0 900 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="720" rx="32" fill="#F3FBF9"/>
+  <rect x="140" y="120" width="620" height="480" rx="30" fill="#FFFFFF" stroke="#D9F1EE" stroke-width="4"/>
+  <rect x="230" y="180" width="260" height="330" rx="22" fill="#111111"/>
+  <path d="M260 386C298 308 330 268 400 268C470 268 502 308 540 386" stroke="#0D9488" stroke-width="18" stroke-linecap="round"/>
+  <path d="M286 270L333 200C349 177 374 164 400 164C426 164 451 177 467 200L514 270" stroke="#6EE7D4" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="333" cy="500" r="24" fill="#0D9488"/>
+  <circle cx="467" cy="500" r="24" fill="#6EE7D4"/>
+  <rect x="540" y="220" width="150" height="130" rx="18" fill="#EAF9F7"/>
+  <text x="615" y="285" text-anchor="middle" fill="#111111" font-size="24" font-family="Montserrat, Arial, sans-serif" font-weight="800">CORP</text>
+  <text x="615" y="330" text-anchor="middle" fill="#0D9488" font-size="22" font-family="Montserrat, Arial, sans-serif" font-weight="700">NIX</text>
+</svg>
