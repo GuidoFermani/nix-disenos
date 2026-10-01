@@ -8,6 +8,7 @@
   letter-spacing: 0.02em;
   transition: all 0.25s ease;
   border: 2px solid transparent;
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -122,12 +123,14 @@
 .brand-logo {
   width: 42px;
   height: 42px;
+  flex-shrink: 0;
 }
 
 .brand-text {
   color: #111111;
   font-size: 1.1rem;
   letter-spacing: 0.08em;
+  line-height: 1;
 
   strong {
     color: #0d9488;

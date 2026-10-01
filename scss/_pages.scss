@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 .contact-form-card {
@@ -16,6 +16,12 @@
   min-height: 52px;
   padding: 0.9rem 1rem;
   background: #fbfdfd;
+  transition: all 0.25s ease;
+
+  &:focus {
+    border-color: #0d9488;
+    background: #fff;
+  }
 }
 
 .contact-form textarea.form-control {
